@@ -2,7 +2,6 @@ name: Generate Snake Contribution Grid
 
 on:
   schedule:
-    # 每天 UTC 00:00 (北京时间 08:00) 自动刷新
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
@@ -15,9 +14,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
@@ -28,7 +24,6 @@ jobs:
 
       - name: Push to output branch
         run: |
-          # 修复 Docker 生成文件的 root 权限问题
           sudo chown -R $USER:$USER dist
           cd dist
           git init
