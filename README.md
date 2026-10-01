@@ -1,5 +1,22 @@
 ## Hi there 👋
 
+### 📈 GitHub 活动与统计 (Statistics)
+
+<div align="center">
+
+  <!-- 贪吃蛇动画（需配置后文的 Actions 脚本） -->
+  <img src="https://raw.githubusercontent.com/yanli78/yanli78/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%" />
+
+  <br/><br/>
+
+  <!-- 个人数据卡片与常用语言占比 -->
+  <a href="https://github.com/yanli78">
+    <img src="https://github-readme-stats.vercel.app/api?username=yanli78&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="155" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yanli78&layout=compact&theme=tokyonight&hide_border=true" height="155" />
+  </a>
+
+</div>
+
 <!--
 **yanli78/yanli78** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
