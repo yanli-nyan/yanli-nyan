@@ -3,11 +3,8 @@
   <!-- 打字机动态标语 -->
 
   <a href="https://github.com/yanli-nyan">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=600&lines=Hi+there%2C+I%27m+yanli-nyan+%F0%9F%91%8B" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=600&lines=Hi+there%2C+I%27m+yanli-nyan+%F0%9F%91%8B" alt="Typing SVG" />
   </a>
-
-</div>
-
 
 </div>
 
@@ -15,7 +12,7 @@
 
 <div align="center">
 
-  <!-- 贪吃蛇动画 -->
+  <!-- 贪吃蛇动画：由 .github/workflows/snake.yml 每 4 小时重新生成，按系统深浅色自动切换 -->
 
   <picture>
     <source
@@ -35,15 +32,18 @@
 
 <br/><br/>
 
-  <!-- GitHub Stats -->
+  <!-- GitHub 统计（只统计公开仓库，私有贡献不会计入） -->
+  <!-- 语言占比排除 ThicknessGaugeDetection：该仓库内含大量第三方 C 代码，会挤掉其它语言 -->
 
   <a href="https://github.com/yanli-nyan">
     <img
-      src="https://github-readme-stats.vercel.app/api?username=yanli-nyan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
+      alt="GitHub Stats"
+      src="https://github-readme-stats.vercel.app/api?username=yanli-nyan&show_icons=true&theme=tokyonight&hide_border=true&disable_animations=true"
       height="155"
     />
     <img
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=yanli-nyan&layout=compact&theme=tokyonight&hide_border=true"
+      alt="Top Languages"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=yanli-nyan&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=ThicknessGaugeDetection&disable_animations=true"
       height="155"
     />
   </a>

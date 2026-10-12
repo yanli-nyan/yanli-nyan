@@ -2,11 +2,17 @@ name: Generate Snake Contribution Grid
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # 每 4 小时跑一次，让贪吃蛇尽快跟上最新的贡献（UTC 0/4/8/12/16/20 点）
+    - cron: "0 */4 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
+
+# 同一时间只保留一个任务，避免并发推送 output 分支
+concurrency:
+  group: snake-output
+  cancel-in-progress: false
 
 jobs:
   build:
