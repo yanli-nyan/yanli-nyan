@@ -1,13 +1,8 @@
 name: Generate Snake Contribution Grid
 
 on:
-  schedule:
-    # 每天 UTC 00:00（北京时间 08:00）更新一次；GitHub 排队后通常在 03:00 UTC 前后跑完
-    - cron: "0 0 * * *"
+  # 定时自动运行已关闭：需要更新蛇图时，到本仓库 Actions 页面手动 Run workflow。
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   build:
